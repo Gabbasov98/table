@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+        body {
+            font-family: arial;
+            font-size: 10px;
+            color: #000;
+            padding: 0;
+            margin: 10px;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        table {
+            width: 100%;
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-bottom: 16px;
+            vertical-align: top;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 4px;
+            vertical-align: top;
+        }
+        .title{
+            font-size: 14px;
+            line-height: 120%;
+            font-weight: 700;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .account{
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .blue-text,
+        .account span{
+            color: #3a70c0;
+        }
+        .table2 td{
+            border: none;
+            padding: 5px 0;
+        }
+        .table2 td:not(:last-child){
+            padding-right: 5px;
+        }
+        .table3{
+            font-size: 12px;
+        }
+        .table3 th{
+            font-weight: 700;
+        }
+        .sum td,
+        .sum{
+            border: none;
+        }
+        .sum{
+            margin-top: 15px;
+            font-size: 12px;
+            font-weight: 700;
+        }
+        .all{
+            font-size: 12px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #000;
+        }
+        b{
+            font-weight: 700;
+        }
+        .bottom{
+            margin-top: 15px;
+        }
+        .bottom-item{
+            display: inline-block;
+            width: 68%;
+            padding: 3px;
+        }
+        .bottom-item__title{
+            font-size: 12.5px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        .bottom-item__name{
+            margin-top: 30px;
+            border-top: 1px solid #000;
+            text-align: center;
+            padding: 4px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="account">
+    Акт № ____ от  "____" "____________ 202__ г.
+</div>
+
+<table class="table2" style="border: none;font-size: 12px;font-weight: 700;margin-top: 10px;">
+    <tr>
+        <td style="font-weight: 400;">
+            "Поставщик <br>
+            (Исполнитель):"
+        </td>
+        <td>
+            ООО " Наименование" // ИП (ФИО), ИНН // КПП , Юридический адрес,  телефон:код(номер)
+        </td>
+    </tr>
+    <tr>
+        <td style="font-weight: 400;">
+            Заказчик:
+        </td>
+        <td>
+            ООО " Наименование" // ИП (ФИО), ИНН // КПП , Юридический адрес,  телефон:код(номер)
+        </td>
+    </tr>
+    <tr>
+        <td style="font-weight: 400;">
+            Основание:
+        </td>
+        <td>
+            Договор на перевозку грузов  № от "____" _____________ 202___ г.
+        </td>
+    </tr>
+</table>
+
+<table class="table3">
+    <thead>
+    <tr>
+        <th>№</th>
+        <th>Наименование работ, услуг</th>
+        <th>Кол-во</th>
+        <th>Ед.</th>
+        <th>Цена</th>
+        <th>Сумма</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td style="text-align:center;height: 70px;">1</td>
+        <td style="height: 70px;">
+            "Заявку: № и дата <br>
+            Маршрут перевозки <br>
+            Грузоподъемность до 20тн <br>
+            ТН: № и дата <br>
+            Марка автомобиля <br>
+            ФИО водителя"
+        </td>
+        <td style="text-align:center;height: 70px;">___</td>
+        <td style="text-align:center;height: 70px;">рейс</td>
+        <td style="text-align:right;height: 70px;">0,00</td>
+        <td style="text-align:right;height: 70px;width: 10%;">0,00</td>
+    </tr>
+    </tbody>
+</table>
+
+<table class="sum">
+    <tbody>
+    <tr>
+        <td style="text-align:right;">Итого:</td>
+        <td style="width: 10%;text-align:right;">0</td>
+    </tr>
+    <tr>
+        <td style="text-align:right;">В том числе НДС 20%:</td>
+        <td style="width: 10%;text-align:right;">-</td>
+    </tr>
+    <tr>
+        <td style="text-align:right;">Всего к оплате:</td>
+        <td style="width: 10%;text-align:right;"></td>
+    </tr>
+    </tbody>
+</table>
+
+<div class="all">
+    Всего наименований <span class="blue-text">(___)</span>, на
+    <span class="blue-text">
+        сумму ___________ 0,00 RUB
+    </span>
+    <b style="display: block; margin-top: 4px;">
+        (сумма к оплате прописью) рублей 00 копеек
+    </b>
+    <p style="margin-top: 15px;">
+        Вышеперечисленные услуги выполнены полностью и в срок. Заказчик претензий по объему, качеству и срокам оказания услуг не имеет.
+    </p>
+</div>
+
+<div class="bottom">
+    <div class="bottom-item">
+        <div class="bottom-item__title">
+            ИСПОЛНИТЕЛЬ
+        </div>
+        <div class="bottom-item__desc">
+            ООО " Наименование" // ИП (ФИО)
+        </div>
+        <div class="bottom-item__name" style="max-width: 80%">
+            ФИО
+        </div>
+    </div>
+    <div class="bottom-item" style="width: 30%; margin-left: auto;">
+        <div class="bottom-item__title">
+            ЗАКАЗЧИК
+        </div>
+        <div class="bottom-item__desc">
+            ООО " Наименование" // ИП (ФИО)
+        </div>
+        <div class="bottom-item__name">
+            ФИО
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
